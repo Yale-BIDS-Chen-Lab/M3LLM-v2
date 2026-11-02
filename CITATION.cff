@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the updated M3LLM preprint below."
+title: "M3LLM: Medical Multi-image Reasoning"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Zhen
+  - family-names: Fu
+    given-names: Yihang
+repository-code: "https://github.com/Yale-BIDS-Chen-Lab/M3LLM-v2"
+url: "https://github.com/Yale-BIDS-Chen-Lab/M3LLM-v2"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature"
+  authors:
+    - family-names: Chen
+      given-names: Zhen
+    - family-names: Fu
+      given-names: Yihang
+    - family-names: Zhou
+      given-names: Rong
+    - family-names: Applebaum
+      given-names: Serina
+    - family-names: Kim
+      given-names: Min Kyu
+    - family-names: Gilson
+      given-names: Aidan
+    - family-names: Lee
+      given-names: Morten
+    - family-names: Mirza
+      given-names: Salahudeen
+    - family-names: Madera
+      given-names: Gabriel
+    - family-names: Giuffre
+      given-names: Mauro
+    - family-names: Pan
+      given-names: Yuanting
+    - family-names: Jiang
+      given-names: Roy
+    - family-names: Kim
+      given-names: Hyunjae
+    - family-names: Xu
+      given-names: Hua
+    - family-names: Chen
+      given-names: Qingyu
+  journal: "arXiv"
+  year: 2025
+  doi: "10.48550/arXiv.2511.22232"
+  url: "https://arxiv.org/abs/2511.22232v2"
+  notes: "Version 2, revised 29 September 2026."

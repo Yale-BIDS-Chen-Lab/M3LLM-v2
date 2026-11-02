@@ -1,6 +1,6 @@
 # Training
 
-The released training recipes follow the manuscript's three-stage post-training workflow. The [versioned data release](https://huggingface.co/datasets/KerwinFu/M3LLM-data-v1.0.0) contains the supervised instruction records and separate policy-optimisation training and validation records. Configure local dataset and image paths before running a stage.
+The released training recipes follow the manuscript's three-stage post-training workflow. The [versioned data release](https://huggingface.co/datasets/Yale-BIDS-Chen/M3LLM-data-v1.0.0) contains the supervised instruction records and separate policy-optimisation training and validation records. Configure local dataset and image paths before running a stage.
 
 | Stage | Recipe | Implementation |
 | --- | --- | --- |

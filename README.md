@@ -2,11 +2,14 @@
 
 **From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature**
 
-M3LLM is a medical multimodal language model developed for reasoning across multiple images. This repository contains the PMC-MI instruction-construction pipeline, the three-stage post-training recipes, and the evaluation code accompanying the manuscript.
+M3LLM is a medical multimodal language model developed for reasoning across multiple images. This repository contains the PMC-MI instruction-construction pipeline, the three-stage post-training recipes, and the evaluation code accompanying the [updated preprint](https://arxiv.org/abs/2511.22232v2).
 
-- **Data and benchmark:** [PMC-MI and PMC-MI-Bench](https://huggingface.co/datasets/KerwinFu/M3LLM-data-v1.0.0)
+- **Updated preprint:** [arXiv:2511.22232v2](https://arxiv.org/abs/2511.22232v2) · [PDF](https://arxiv.org/pdf/2511.22232v2)
+- **Data and benchmark:** [PMC-MI and PMC-MI-Bench](https://huggingface.co/datasets/Yale-BIDS-Chen/M3LLM-data-v1.0.0)
 - **Versioned code:** [v1.0.2](https://github.com/Yale-BIDS-Chen-Lab/M3LLM-v2/tree/v1.0.2)
 - **Upstream source resource:** [MedPMC](https://github.com/Yale-BIDS-Chen-Lab/MedPMC)
+
+**29 September 2026:** The revised preprint is available, with the three-stage training framework, expanded benchmark and clinical evaluations, and independent medical-reviewer assessments.
 
 ## Quick start
 
@@ -35,12 +38,26 @@ M3LLM-v2/
 └── Evaluation/         # PMC-MI-Bench, public benchmarks, judge, and validations
 ```
 
-The Yale New Haven Health System clinical cohort is not distributed here. Its aggregate results and evaluation procedures are described in the manuscript.
+The Yale New Haven Hospital (YNHH) dermatology cohort is not distributed here. Its aggregate results and evaluation procedures are described in the manuscript.
 
 ## Licence
 
-Original M3LLM-v2 code and documentation are released under the [Apache License 2.0](LICENSE), consistent with MedPMC. This code licence does not cover the dataset, PMC article content, model weights, or third-party software. See [licensing details](docs/licensing.md), the [dataset card](https://huggingface.co/datasets/KerwinFu/M3LLM-data-v1.0.0), and [third-party notes](THIRD_PARTY.md).
+Original M3LLM-v2 code and documentation are released under the [Apache License 2.0](LICENSE), consistent with MedPMC. This code licence does not cover the dataset, PMC article content, model weights, or third-party software. See [licensing details](docs/licensing.md), the [dataset card](https://huggingface.co/datasets/Yale-BIDS-Chen/M3LLM-data-v1.0.0), and [third-party notes](THIRD_PARTY.md).
 
 ## Citation
 
-The accompanying manuscript is *From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature*. Publication details will be added when available.
+If you use M3LLM, PMC-MI, or PMC-MI-Bench, please cite the paper:
+
+```bibtex
+@article{chen2025m3llm,
+  title={From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature},
+  author={Chen, Zhen and Fu, Yihang and Zhou, Rong and Applebaum, Serina and Kim, Min Kyu and Gilson, Aidan and Lee, Morten and Mirza, Salahudeen and Madera, Gabriel and Giuffre, Mauro and Pan, Yuanting and Jiang, Roy and Kim, Hyunjae and Xu, Hua and Chen, Qingyu},
+  journal={arXiv preprint arXiv:2511.22232},
+  year={2025},
+  eprint={2511.22232},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2511.22232v2},
+  note={Version 2, revised 29 September 2026}
+}
+```
